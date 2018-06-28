@@ -1,0 +1,12 @@
+Couleur : blanc, noir, gold : #C9A43D , gris foncé : #383838 
+font : Solois pour titre, Circular pour paragraphes 
+
+- Menu Burger.
+
+- Slider des images/textes 
+hover sur les icon des img sur slider  (noir et blanc qui passe en couleur)
+
+- meme hover sur les icon des partenaires
+
+-bouton $ (à droite) en position fixed à partir du moment où on ne voit plus le bouton FINANCER du début
+

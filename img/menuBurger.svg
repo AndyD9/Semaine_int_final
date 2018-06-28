@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5093.705 824.5 45.295 24.653">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #c9a43d;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="menuBurger" transform="translate(4756 813.5)">
+    <line id="Ligne_1" data-name="Ligne 1" class="cls-1" x2="36.802" transform="translate(346.198 12.5)"/>
+    <line id="Ligne_2" data-name="Ligne 2" class="cls-1" x2="36.802" transform="translate(337.705 23.326)"/>
+    <line id="Ligne_3" data-name="Ligne 3" class="cls-1" x2="36.802" transform="translate(346.198 34.153)"/>
+  </g>
+</svg>

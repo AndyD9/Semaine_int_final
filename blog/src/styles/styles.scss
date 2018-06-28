@@ -1,0 +1,66 @@
+// global
+@import './global/reset';
+@import './global/variables';
+// mixins
+@import './mixins/forsize';
+@import './mixins/mixins';
+// components
+@import './components/header';
+@import './components/navigation';
+@import './components/button';
+@import './components/footer';
+
+@font-face {
+  font-family: 'Soloist';
+}
+
+@font-face {
+  font-family: 'Soloist Halftone';
+}
+
+@font-face {
+  font-family: 'Circular Std';
+}
+
+@font-face {
+  font-family: 'Circular Std Gras';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: "Circular Std", "Helvetica", "Arial", sans-serif;
+}
+
+::selection {
+  background-color: #b3d4fc;
+  color: #000;
+  text-shadow: none;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.hidden {
+  overflow: hidden;
+}

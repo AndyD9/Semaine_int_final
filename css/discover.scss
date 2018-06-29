@@ -1,5 +1,11 @@
+@font-face {
+ font-family: "soloist";
+ src: url("font/soloist.tff") format("ttf");
+}
+
+
 .body{
-  font-family: sans-serif;
+  font-family: 'soloist';
 }
 
 
@@ -28,24 +34,33 @@
   margin-left: 30px;
 
 &__main{
-
+width: 200px;
+padding-bottom: 5px;
+border-bottom: solid 1px;
+font-weight: 600;
 
 }&__sub-title{
 
+}&__maindesktop{
+  display: none;
+} &__maindesktop2{
+  display: none;
 }
 
 }
-
+/*
 hr{
   width: 140px;
   margin-right: 1000px;
   background: #000;
 }
-
+*/
 .sun{
   width: 330px;
   margin-top: 30px;
   margin-bottom: -5px;
+  margin-left: -5px;
+
 }
 
 .planet{
@@ -59,8 +74,8 @@ hr{
   &__description{
   width: 200px;
   margin-left: 60px;
-}&__sub-title{
-
+}&__title{
+ color: #C9A43D;
 }&__slice{
   background: #fff;
   width: 100px;
@@ -78,6 +93,7 @@ hr{
    &__menu{
      padding: 10px;
       border-bottom: solid 1px;
+      width: 150px;
 }&__icon-container{
   display: flex;
   flex-direction: row;
